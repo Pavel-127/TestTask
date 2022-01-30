@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FAC8D2BC27A71803004D3169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC8D2BB27A71803004D3169 /* AppDelegate.swift */; };
-		FAC8D2BE27A71803004D3169 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC8D2BD27A71803004D3169 /* SceneDelegate.swift */; };
 		FAC8D2C027A71803004D3169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC8D2BF27A71803004D3169 /* ViewController.swift */; };
 		FAC8D2C527A7180E004D3169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC8D2C427A7180E004D3169 /* Assets.xcassets */; };
 		FAC8D2C827A7180E004D3169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC8D2C627A7180E004D3169 /* LaunchScreen.storyboard */; };
@@ -20,16 +19,17 @@
 		FAC8D2DE27A729A0004D3169 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FAC8D2DD27A729A0004D3169 /* FirebaseStorage */; };
 		FAC8D2E027A729A0004D3169 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FAC8D2DF27A729A0004D3169 /* FirebaseDatabaseSwift-Beta */; };
 		FAC8D2E227A729A0004D3169 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FAC8D2E127A729A0004D3169 /* FirebaseFirestoreCombine-Community */; };
+		FAC8D2E527A7364E004D3169 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC8D2E427A7364E004D3169 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAC8D2B827A71803004D3169 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC8D2BB27A71803004D3169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAC8D2BD27A71803004D3169 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAC8D2BF27A71803004D3169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC8D2C427A7180E004D3169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC8D2C727A7180E004D3169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC8D2C927A7180E004D3169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC8D2E427A7364E004D3169 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				FAC8D2BB27A71803004D3169 /* AppDelegate.swift */,
-				FAC8D2BD27A71803004D3169 /* SceneDelegate.swift */,
 				FAC8D2BF27A71803004D3169 /* ViewController.swift */,
 				FAC8D2C427A7180E004D3169 /* Assets.xcassets */,
 				FAC8D2C627A7180E004D3169 /* LaunchScreen.storyboard */,
+				FAC8D2E427A7364E004D3169 /* GoogleService-Info (1).plist */,
 				FAC8D2C927A7180E004D3169 /* Info.plist */,
 			);
 			path = TestTask;
@@ -151,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC8D2C827A7180E004D3169 /* LaunchScreen.storyboard in Resources */,
+				FAC8D2E527A7364E004D3169 /* GoogleService-Info (1).plist in Resources */,
 				FAC8D2C527A7180E004D3169 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +165,6 @@
 			files = (
 				FAC8D2C027A71803004D3169 /* ViewController.swift in Sources */,
 				FAC8D2BC27A71803004D3169 /* AppDelegate.swift in Sources */,
-				FAC8D2BE27A71803004D3169 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
